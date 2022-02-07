@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-area{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px 0;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 0 12px;
+    color: #3b4144;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header-icon i{
+    padding: 0 10px;
+    color: #3b4144;
+}
+.contant-sec{
+    background-color: #f5df4e;
+}
+.contant{
+    display: flex;
+    padding: 80px 0;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.contant-left{
+    align-content: center;
+}
+.contant h1{
+    font-weight: 500;
+    color: #292b2c;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+.contant span{
+    font-weight: bold;
+    color: #292b2c;
+    font-size: 88px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.contant h5{
+    color: #292b2c;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.header-button{
+    display: flex;
+}
+.header-button a{
+    background-color: #1c1f23;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-right: 30px;
+}
+.header-button p{
+    margin-top: 15px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.contant-img img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 15px solid #fff;
+}
+.about{
+    padding: 80px 0;
+}
+.titel{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #212529;
+}
+.titel h5{
+    background-color: #f5df4e;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline;
+}
+.titel h3{
+    font-size: 42px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.about-part{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.about-text{
+    flex: 1;
+}
+.about-text h4{
+    font-size: 36px;
+    font-weight: 400;
+    color: #292b2c;
+    margin-bottom: 15px;
+}
+.about-text h4 span{
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: #f5df4e;
+}
+.about-text p{
+    font-size: 22px;
+    color: #292b2c;
+    letter-spacing: 1px;
+}
+.about-year{
+    align-self: center;
+}
+.about-h1{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f5df4e;
+    justify-content: center;
+    color: #292b2c;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.about-h1 h1{
+    font-size: 140px;
+    margin-left: 120px;
+}
+.about-year h4{
+    color: #292b2c;
+    font-size: 36px;
+}
+.about-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    color: #35383a;
+}
+.about-name p{
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #727777;
+}
+.about-name h6{
+    font-size: 18px;
+    color: #292b2c;
+}
+.about-name a{
+    font-size: 18px;
+    color: #292b2c;
+    font-weight: 700;
+}
+.service{
+    padding: 80px 0;
+}
+.service-main{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    text-align: center;
+}
+.service-part{
+    width: 32%;
+}
+.service-part i{
+    margin-top: 50px;
+    color: #f5df4e;
+    font-size: 50px;
+}
+.service-part h4{
+    font-size: 26px;
+    padding: 10px 0;
+    color: #292b2c;
+}
+.service-part p{
+    color: #727777;
+    font-size: 17px;
+    line-height: 30px;
+}
+.resume{
+    padding: 80px 0;
+}
+.resume-main{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.resume-mpart h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.resume-mpart{
+    width: 50%;
+}
+.resume-part{
+    border-left: 2px solid #f5df4e;
+    padding-left: 15px;
+    
+}
+.resume-part h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.resume-part h6{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #3b4144;
+    font-weight: 500;
+}
+.resume-part p{
+    margin-bottom: 10px;
+    color: #44494b;
+    border-bottom: 1px solid #cdd3d3;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    width: 90%;
+}
