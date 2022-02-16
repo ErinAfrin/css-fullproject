@@ -465,6 +465,9 @@ footer h2{
 .footer1{
     width: 50%;
 }
+.footer2{
+    width: 45%;
+}
 .footer2 p{
     margin-bottom: 40px;
 }
@@ -486,7 +489,7 @@ footer h2{
 }
 .footer2 button{
     color: #fff;
-    padding: 20px 60px;
+    padding: 20px 50px;
     background-color: #000;
     box-shadow: none;
     font-size: 18px;
@@ -515,4 +518,7 @@ footer h2{
 }
 .footer-part a{
     color: #f5df4e;
+}
+.footer-part a:hover{
+    text-decoration: none;
 }
